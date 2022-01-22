@@ -1,1 +1,2 @@
-new-item -itemType Directory -Path "C:\agentph" -Force
+Set-ExecutionPolicy -ExecutionPolicy Bypass
+Install-Module -Name Az -Repository PSGallery -Force
